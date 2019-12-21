@@ -1,0 +1,150 @@
+{
+  "main": {
+    "name": "Serdar Oguzhan AKIN",
+    "occupation": "Fullstack Developer",
+    "description": "Java / Spring Boot / AWS / React / Redux / Node.js / Javascript / Typescript",
+    "image": "emrah_1.png",
+    "bio":"Strong hands-on implementation experience on Java framework,Experience with different ORM such as JPA, Hibernate, 10 years of cross-functional experience in enterprise software projects; Especially fintech, telecom and banking sector, React, Angular 7, typescript, JavaScript, experience on enterprise projects",
+    "contactmessage": "Contact with me.",
+    "email": "akinserdaroguzhan@gmail.com",
+    "phone": "+44 07471-825-520",
+    "address": {
+      "street": "",
+      "city": "London",
+      "state": "",
+      "zip": "SM2"
+    },
+    "website": "www.soatech.co.uk",
+    "userId": "user_ICMeD14QLrdrIlx7Qpi4N",
+    "templateId": "template_0O39lrWc",
+    "resumedownload": "https://soatech-bucket.s3.eu-west-1.amazonaws.com/EmrahBasmaz_CV.pdf?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIBE2J%2BbJE8UWc7fqF7nj%2ByJRPHDodEt8ST2Gs%2F8%2BDsyHAiB84gmiQsnGirjwvZbJMh1vc0cmtveyLv9o1Jq3%2FmzaHiqWAgj0%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDQ0NDQxMzM1MDIzMSIMkA0%2F%2FYfYa5YUVQT0KuoBDXYRo16BLF0K4Z6y74bgoJfSMzYX%2B5kZv%2BOzBSGmV9d6ehhC1sjaNeM7%2BBW2aaFudKXDXexWyiLbpfThGvAUE2dDItC1mn28lexw8cx5S9sd%2B4YoLz3tmJWOa%2FAN%2BUQAWr8HDg9xFYZOrUPegC8I3zP7%2FX3ko8ZbhQSDJvj6v6QH2C4ifuiUnWY%2BMELEJju8XbgsJfF2d49QLAGbqzAEDc14RN5nCvpIgx6oIiEBrTlriUrVIV0yIutaT%2B0lCLMha0EPAPOY28CY3dgq6llbwadu91MYw14SWgn38UhOCJUc8Zk33d2U%2Fz4OMKDf%2Be8FOoMDv9BPNv%2BBAJCTJYrNsHmkrRO7QTSCZi9znvrBov7x%2FRLRE3H76d38CLEHH4RR7GCHn8Wp0nBKYWNCIZLYleyacEMTyuKBjh9K6nOa9nfwxwcNbNdrN9gNUiuccYhft02yBYhaZ77TXnqmEwcz50LAG64iy7vDlaroLi7FRYj16va96WtU1qhMHoqdIkRMCf3yQjitbkrtzCGFUXCJqNuYQFGC5WPfdA0MeILc54%2BkgHw73KEJExjMnamqCqbjHf5%2FxtzYB0jqCMBUvt5tH7W%2FZLaeiAIS2hum9CFjllAB%2FMwIf70naS4pN%2BiwbT7Bv2MaF0XDD5z6QFFWh3dAgTIFMOg3Ee%2F%2B5fLFvw1q2nhZMYUXZ%2BCF6OmXKym6SU%2FsKtkmbpsIVlRMgEruBgn8PL1aNQiLcf5iieFicXbKorG04vZQ9SXigKFLZ3smbIKQBJcJMGn9%2F4qBWWYXMfqpg0PJSW06u%2B%2FtUGYUpgTCWEVa2DSmrhLdLFPS1dwc6CJ2zn5WT6yk&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191221T191939Z&X-Amz-SignedHeaders=host&X-Amz-Expires=299&X-Amz-Credential=ASIAWO6IZSFLUYEPXVPZ%2F20191221%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=003cbad792d56eacff8817d20578e5331653ef2dc0ee0652b0813f2ee82a1258",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/soakin/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/serdaroguzhanakin",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "skype",
+        "url": "http://skype.com",
+        "className": "fa fa-skype"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Java / Spring Boot / AWS / Angular / React / Redux / Javascript / Typescript / RabbitMQ / Oracle / Postgre SQL / Elasticsearch",
+    "education": [
+      {
+        "school": "Koacaeli University",
+        "degree": "Bachelor degree in Electronic and Communication Engineering",
+        "graduated": "September 2009",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "Financial House",
+        "title": "Sr. Fullstack Developer",
+        "years": "May 2019 - ...",
+        "description": " Payment System backend Integration with CurrencyCloud platform "
+      },
+      {
+        "company": "Aktif Investment Bank",
+        "title": "Team Leader ",
+        "years": "2018 - 2019",
+        "description": " Card Management System / Payment System "
+      },
+      {
+        "company": "LC Waikiki",
+        "title": "Sr. Fullstack Developer ",
+        "years": "2017 - 2018",
+        "description": "E-Commerce"
+      },
+      {
+        "company": "Ericsson",
+        "title": "Sr. Software Developer",
+        "years": "2017 - 2018",
+        "description": "Telcom IT Consultancy"
+      },
+      {
+        "company": "Albaraka Bank",
+        "title": "Sr. Software Developer",
+        "years": "2010 - 2017",
+        "description": "Banking"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "Jenkins",
+        "level": "60%"
+      },
+      {
+        "name": "BitBucket",
+        "level": "70%"
+      },
+      {
+        "name": "Java",
+        "level": "85%"
+      },
+      {
+        "name": "Node.Js",
+        "level": "70%"
+      },
+      {
+        "name": "React.Js",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "60%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "Angular",
+        "level": "80%"
+      },
+      {
+        "name": "ES6",
+        "level": "60%"
+      },
+      {
+        "name": "Oracle",
+        "level": "80%"
+      },
+      {
+        "name": "Mongo Db",
+        "level": "50%"
+      },
+      {
+        "name": "Elasticsearch",
+        "level": "60%"
+      },
+      {
+        "name": "RabbitMQ",
+        "level": "90%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Passolig",
+        "category": "Sports Activities",
+        "image": "passolig.png",
+        "url": "https://www.passolig.com.tr/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "main": {
+    "name": "Emrah Basmaz",
+    "occupation": "Fullstack Developer",
+    "description": ".NET Core / Angular / React / Redux / Node.js / Javascript / Typescript",
+    "image": "emrah_1.png",
+    "bio":"Strong hands-on implementation experience on .Net framework,Experience with different ORM such as Entity Framework, NHibernate, Dapper,10 years of cross-functional experience in enterprise software projects; Especially fintech, telecom and banking sector ,Angular, typescript, JavaScript, React experience on enterprise projects",
+    "contactmessage": "Contact with me.",
+    "email": "emrahbasmaz@gmail.com",
+    "phone": "+44 07500-742-980",
+    "address": {
+      "street": "(Your Street)",
+      "city": "London",
+      "state": "(Your State)",
+      "zip": "SW18 1PW"
+    },
+    "website": "",
+    "userId": "user_ICMeD14QLrdrIlx7Qpi4N",
+    "templateId": "template_0O39lrWc",
+    "resumedownload": "https://elasticbeanstalk-us-west-1-361474420624.s3-us-west-1.amazonaws.com/EmrahBasmaz_CV.pdf",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/emrah.basmaz",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/emrah-basmaz-1829b939/?locale=en_US",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/emrahbsmz/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/emrahbasmaz",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "skype",
+        "url": "http://skype.com",
+        "className": "fa fa-skype"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": ".NET Core / Angular / React / Redux / Javascript / Typescript / RabbitMQ / Oracle /MS-Sql /Postgre SQL / Elasticsearch",
+    "education": [
+      {
+        "school": "Eastern Mediterranean University",
+        "degree": "Bachelor degree in Computer Engineering",
+        "graduated": " September 2011",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "Mazlow",
+        "title": "Team Leader ",
+        "years": "November 2019 - December 2019",
+        "description": " Payment System backend Integration with CurrencyCloud platform "
+      },
+      {
+        "company": "Aktif Investment Bank",
+        "title": "Team Leader ",
+        "years": "February 2018 - August 2019",
+        "description": " Card Management System / Payment System "
+      },
+      {
+        "company": "INTERTECH",
+        "title": "Sr. Fullstack Developer ",
+        "years": "March 2017 - February 2018",
+        "description": " Inter-Pay NeXT (Payment System) "
+      },
+      {
+        "company": "Cardtek EMV Solutions / PayCore",
+        "title": "Software Developer",
+        "years": "December 2013 - March 2017",
+        "description": " (SP TSM) / Payment System  --- Mobile Wallet --- Ocean Card Management --- Empay Integration "
+      },
+      {
+        "company": "Vodafone",
+        "title": "Software Developer",
+        "years": "March 2013 - December 2013",
+        "description": "Siebel CRM"
+      },
+      {
+        "company": "Strategia",
+        "title": "Fullstack Developer",
+        "years": "September 2011 - February 2013",
+        "description": "Online Student Information System"
+      },
+      {
+        "company": "IBTECH",
+        "title": "Junior Fullstack Developer",
+        "years": "September 2011 - June 2012",
+        "description": "Online ATM Coordinate System"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "Tfs",
+        "level": "60%"
+      },
+      {
+        "name": "Jenkins",
+        "level": "60%"
+      },
+      {
+        "name": "BitBucket",
+        "level": "70%"
+      },
+      {
+        "name": "C#",
+        "level": "85%"
+      },
+      {
+        "name": "Node.Js",
+        "level": "70%"
+      },
+      {
+        "name": "React.Js",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "60%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "Angular",
+        "level": "80%"
+      },
+      {
+        "name": "ES6",
+        "level": "60%"
+      },
+      {
+        "name": "Oracle",
+        "level": "80%"
+      },
+      {
+        "name": "Ms-Sql",
+        "level": "80%"
+      },
+      {
+        "name": "Mongo Db",
+        "level": "50%"
+      },
+      {
+        "name": "Elasticsearch",
+        "level": "60%"
+      },
+      {
+        "name": "RabbitMQ",
+        "level": "90%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Passolig",
+        "category": "Sports Activities",
+        "image": "passolig.png",
+        "url": "https://www.passolig.com.tr/"
+      },
+      {
+        "title": "Getir",
+        "category": "Payment System Integration",
+        "image": "getir.png",
+        "url": "https://www.getir.com/en/"
+      },
+      {
+        "title": "BiTaksi",
+        "category": "Payment System Integration",
+        "image": "bitaksi.png",
+        "url": "http://www.bitaksi.com/en/"
+      },
+      {
+        "title": "Starbucks",
+        "category": "Payment System Integration",
+        "image": "starbucks.png",
+        "url": "https://www.starbuckscardtr.com/anasayfa.aspx"
+      },
+      {
+        "title": "Masterpass",
+        "category": "Digital Wallet",
+        "image": "masterpass.png",
+        "url": "https://www.masterpassturkiye.com/Login.aspx?"
+      }
+    ]
+  }
+}
