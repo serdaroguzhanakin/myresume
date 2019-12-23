@@ -37,7 +37,7 @@ class Contact extends Component {
    }
 
    sendFeedback(templateId, userId, variables) {
-      emailjs.send('gmail', templateId, variables, userId)
+      emailjs.send('akinserdaroguzhan@gmail.com', templateId, variables, userId)
          .then(res => {
             console.log('Email successfully sent!')
          })
