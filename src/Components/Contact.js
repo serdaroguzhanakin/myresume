@@ -7,7 +7,7 @@ class Contact extends Component {
       super(props);
 
       this.state = {
-         feedback: '', name: 'Emrah', email: 'emrahbasmaz@gmail.com',
+         feedback: '', name: 'Oguz', email: 'akinserdaroguzhan@gmail.com',
          variables: {
             message_html: '',
             from_name: '',
