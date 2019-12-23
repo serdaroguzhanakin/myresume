@@ -10,7 +10,7 @@ import Portfolio from './Components/Portfolio';
 import jsonData from "./assests/resumeData.json";
 class App extends Component {
 
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       foo: 'bar',
@@ -21,19 +21,19 @@ class App extends Component {
     ReactGA.pageview(window.location.pathname);
   }
 
-  componentDidMount(){
-    this.setState({resumeData: jsonData});
+  componentDidMount() {
+    this.setState({ resumeData: jsonData });
   }
 
   render() {
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
-        <Contact data={this.state.resumeData.main}/>
-        <Footer data={this.state.resumeData.main}/>
+        <Header data={this.state.resumeData.main} />
+        <About data={this.state.resumeData.main} />
+        <Resume data={this.state.resumeData.resume} />
+        <Portfolio data={this.state.resumeData.portfolio} />
+        <Contact data={this.state.resumeData.main} />
+        <Footer data={this.state.resumeData.main} />
       </div>
     );
   }
