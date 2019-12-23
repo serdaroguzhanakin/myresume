@@ -14,8 +14,8 @@ class Contact extends Component {
             reply_to: ''
          },
          contact: {
-            contactName: '',
-            contactEmail: '',
+            fromName: '',
+            fromEmail: '',
             contactSubject: '',
             contactMessage: ''
          }
@@ -28,8 +28,9 @@ class Contact extends Component {
       const templateId = this.props.data.templateId;
 
       var templateParams = {
-         from_name: this.state.contact.contactName.value,
-         to_name: this.state.name.value,
+         to_name: "Oguz",
+         from_name: this.state.contact.fromName.value,
+         from_mail: this.state.contact.fromEmail.value,
          subject: this.state.contact.contactSubject.value,
          message_html: this.state.feedback.value
       }
@@ -39,7 +40,7 @@ class Contact extends Component {
    sendFeedback(templateId, userId, variables) {
       emailjs.send('akinserdaroguzhan@gmail.com', templateId, variables, userId)
          .then(res => {
-            console.log('Email successfully sent!')
+            console.log('Email successfully sent!');
          })
          // Handle errors here however you like, or use a React error boundary
          .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
@@ -62,8 +63,8 @@ class Contact extends Component {
 
       this.setState({
          feedback: updatedForm.contactMessage,
-         name: updatedForm.contactName,
-         variables: { message_html: updatedForm.contactMessage, from_name: updatedForm.contactName, reply_to: updatedForm.contactEmail }
+         name: updatedForm.fromName,
+         variables: { message_html: updatedForm.contactMessage, from_name: updatedForm.fromName, reply_to: updatedForm.fromEmail }
       });
    }
 
@@ -104,23 +105,23 @@ class Contact extends Component {
                      <fieldset>
 
                         <div>
-                           <label htmlFor="contactName">Name <span className="required">*</span></label>
-                           <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.inputChangedHandler.bind(this)} />
+                           <label htmlFor="fromName">Your Name<span className="required">*</span></label>
+                           <input type="text" defaultValue="" size="35" id="fromName" name="fromName" onChange={this.inputChangedHandler.bind(this)} required />
                         </div>
 
                         <div>
-                           <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                           <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.inputChangedHandler.bind(this)} />
+                           <label htmlFor="fromEmail">Your Email<span className="required">*</span></label>
+                           <input type="text" defaultValue="" size="35" id="fromEmail" name="fromEmail" onChange={this.inputChangedHandler.bind(this)} required />
                         </div>
 
                         <div>
                            <label htmlFor="contactSubject">Subject</label>
-                           <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.inputChangedHandler.bind(this)} />
+                           <input type="text" defaultValue="Hi" size="35" id="contactSubject" name="contactSubject" onChange={this.inputChangedHandler.bind(this)} required />
                         </div>
 
                         <div>
                            <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                           <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" onChange={this.inputChangedHandler.bind(this)}></textarea>
+                           <textarea cols="50" rows="15" id="contactMessage" name="contactSubject" onChange={this.inputChangedHandler.bind(this)} required></textarea>
                         </div>
 
                         <div>
