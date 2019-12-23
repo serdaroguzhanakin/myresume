@@ -2,7 +2,7 @@
   "name": "personalportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://serdaroguzhanakin.github.io/myresume",
+  "homepage": "https://serdaroguzhanakin.github.io/myresume",
   "dependencies": {
     "deployment": "^0.2.3",
     "emailjs-com": "^2.4.1",
